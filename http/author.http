@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/author
+Content-Type: application/json
+
+{
+  "name": "tony"
+}
+
+###
+GET  http://localhost:3001/api/author/read
+
+###
+PUT   http://localhost:3001/api/author/update/2
+Content-Type: application/json
+
+{
+  "name": "Mike"
+}
+
+###
+delete   http://localhost:3001/api/author/delete/7
