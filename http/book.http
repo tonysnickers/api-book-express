@@ -1,0 +1,18 @@
+POST http://localhost:3001/api/book
+Content-Type: application/json
+
+{
+  "title": "l'horizon a l'envers"
+}
+
+###
+GET  http://localhost:3001/api/book/read
+
+###
+POST http://localhost:3001/api/book
+Content-Type: application/json
+
+{
+  "bookTitle": "l'horizon a l'envers",
+  "authorName": 
+}
